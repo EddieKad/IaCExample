@@ -11,7 +11,7 @@ terraform {
 
   cloud {
     organization = "IaCTest_Eddie"
-    workspace {
+    workspaces {
       name = "IaCExample"
     }
   }
