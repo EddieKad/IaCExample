@@ -13,6 +13,7 @@ cloud {
   organization = "IaCTest_Eddie"
   workspace {
     name = "IaCExample"
+  }
 }
 
 provider "azurerm" {
