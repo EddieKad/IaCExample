@@ -9,10 +9,11 @@ terraform {
 
   required_version = ">= 1.1.0"
 
-cloud {
-  organization = "IaCTest_Eddie"
-  workspace {
-    name = "IaCExample"
+  cloud {
+    organization = "IaCTest_Eddie"
+    workspace {
+      name = "IaCExample"
+    }
   }
 }
 
@@ -23,5 +24,4 @@ provider "azurerm" {
 resource "azurerm_resource_group" "rg" {
   name     = "myTFResourceGroup"
   location = "westus2"
-}
 }
